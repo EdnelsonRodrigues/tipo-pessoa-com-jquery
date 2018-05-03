@@ -54,10 +54,19 @@ $(document).ready(function(){
 
 		//se senhuma das opcões validas for selecionada, oculta tudo
 		if (id == 'selecione' ){
-			$('#cpf').hide();
-			$('#cnpj').hide();
-			$('#razao_social').hide();
 			$('#nome').hide();
+			$('#cpf').hide();
+			$('#rg').hide();
+			$('#titulo').hide();
+			$('#data_nasc').hide();
+			$('#desc').hide();
+			$('#razao_social').hide();
+			$('#fantasia').hide();
+			$('#data_fund').hide();
+			$('#cnpj').hide();
+			$('#ie').hide();
+			$('#email').hide();
+			$('#site').hide();
 		}
 	});
 });
